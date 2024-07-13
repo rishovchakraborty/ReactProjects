@@ -18,6 +18,7 @@ const LoginForm = (props) => {
         e.preventDefault();
         setIsLoggedIn(true);
         toast.success("Login Success");
+        console.log(formData);
         navigate("/dashboard");
     }
 

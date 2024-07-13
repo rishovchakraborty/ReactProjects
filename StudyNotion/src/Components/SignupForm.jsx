@@ -34,6 +34,7 @@ const SignupForm = (props) => {
 
     setIsLoggedIn(true);
     toast.success("Account Created");
+    console.log(formData);
     navigate("/dashboard");
   }
 
